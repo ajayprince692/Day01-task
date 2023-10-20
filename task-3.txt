@@ -1,0 +1,26 @@
+Read about IP address, port, HTTP methods, MAC address
+
+IP address:(Internet Protocol Address)
+    It is a unique name given to electronic gadgets like computer,mobile which participates in their network using Internet protocol for communication.
+    It can either be IPv4(32 bit) or IPv6(128bit).
+    It plays crucial role in routing data packets across Internet and local network.
+
+Port:
+    In networking port is a 16bit unsigned ineteger for specific function or service on a device within the network.
+    They are used to distinguish services provided on the same device,for example HTTP uses port 80 where HTTPS uses port 443.
+
+HTTP methods:
+    They are actions performed on resources identified by URL(Uniform Resource Locator).
+    Common HTTP requests,
+        Get- Used to get all data.
+        Put- Used to update data.
+        Post- Used to add a data.
+        Delete- Used to delete a data.
+        Patch- Used to apply partial modifications to a resource.
+
+MAC address:
+    MAC address is a unique identifier which is given to networks,such as NICs(Network Interface Cards) and Ehternet ports on network devices.
+    Unlike IP address they are hard coded into hardware of the device and are globally unique.
+    They are used in OSI model of data to reduce the control flow of data within same local networks like ethernet. 
+
+
