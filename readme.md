@@ -1,0 +1,1 @@
+Day-01 task includes difference between HTTP1.1 and HTTP2 ,Objects and its internal representation in javascript and defining IPaddress,port,Mac address and HTTP methods.
