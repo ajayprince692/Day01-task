@@ -1,0 +1,26 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP 1.1:
+
+Request Response method:
+    Simple request response method which each request from the client resolve by the server in a linear fashion.
+Header compression:
+    It sends header as plaintext which can be redundant.
+Binary protocol:
+    It uses text based protocol,which is inefficient for parsing and processing.
+Flow control:
+    It doesn't have builtin flow control mechanism.
+
+HTTP 2:
+
+Request Response method:
+    It uses multiplexing,so that multiple requests from client can be solved by the server in a parallel way over single connection.
+Header compression:
+    It uses header compression(HPACK)which reduces redundancy.
+Binary protocol:
+    It uses binary protocol which is more effcient for client and server.
+Flow control:
+    It includes flow control which the sender doesn't overwhelm the reciever with data.
+
+
+
