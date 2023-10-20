@@ -1,0 +1,20 @@
+Write a blog about objects and its internal representation in Javascript
+
+Objects:
+    In javascript objects are composite datatypes that allows you to store and manipulate key-value pairs.Objects are one of the most fundamental and versatile datastructures in the language.They are used to represent the data in a organized and structured manner.
+    Internal representation in Javascript consist of two parts:
+        1. Data properties
+        2. Accessor properties
+
+    Data properties:
+        It stores values,have attributes like,
+            Value- actual data value.
+            Writable- Boolean indicating whether value can be changed.
+            Enumerable- Boolean indicating whether property can be enumerated in for in loops. 
+            Configurable- Boolean indicating whether property's attributes can be changed and whether properties can be deleted.
+
+    Accessor properties:
+        It doesn't store values directly but define getter and setter functions for retrieving and setting values.
+            Get- function to get the property Value.
+            Set- function to set the property value.
+            Enumerable and Configurable attributes like in Data properties. 
